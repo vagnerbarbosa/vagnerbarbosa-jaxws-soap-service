@@ -2,7 +2,7 @@ package com.vagnerbarbosa.soap.service;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "br.com.cazuza.servico.Servico")
+@WebService(endpointInterface = "com.vagnerbarbosa.soap.service.Service")
 public class ServiceImpl implements Service {
 
     @Override
