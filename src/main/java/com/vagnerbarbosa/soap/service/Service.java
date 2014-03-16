@@ -10,5 +10,5 @@ import javax.jws.soap.SOAPBinding.Style;
 public interface Service {
 
     @WebMethod
-    String operationService(String mensage);
+    String operationService(String menssage);
 }
